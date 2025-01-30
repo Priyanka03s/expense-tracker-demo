@@ -1,0 +1,74 @@
+/* Register Component Styles */
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .register-header {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .register-form {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .register-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .register-input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .register-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .register-button:active {
+    background-color: #004494;
+  }
+  
+  .register-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .register-error {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
